@@ -1,0 +1,84 @@
+characters = {
+	main_naval_leader_1 = {
+		name = main_naval_leader_1
+		portraits = {
+			navy = {
+				large = "gfx/leaders/MM0_naval/1.png"
+				small = "gfx/interface/ideas/naval_small/1.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MM0_naval/1.png"
+				small = "gfx/interface/ideas/naval_small/1.png"
+			}
+		}
+		navy_leader = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			maneuvering_skill = 6
+			coordination_skill = 6
+			traits = {
+				seawolf
+				fleet_protector
+				fly_swatter
+				superior_tactician
+				blockade_runner
+				spotter
+				air_controller
+				ironside
+				arctic_water_expert
+				inshore_fighter
+				blue_water_expert
+				green_water_expert
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = main_naval_leader_1
+			traits = {
+				main_naval_traits_1
+			}
+		}
+	}
+	main_naval_leader_2 = {
+		name = main_naval_leader_2
+		portraits = {
+			navy = {
+				large = "gfx/leaders/MM0_naval/2.png"
+				small = "gfx/interface/ideas/naval_small/2.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MM0_naval/2.png"
+				small = "gfx/interface/ideas/naval_small/2.png"
+			}
+		}
+		navy_leader = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			maneuvering_skill = 6
+			coordination_skill = 6
+			traits = {
+				seawolf
+				fleet_protector
+				fly_swatter
+				superior_tactician
+				blockade_runner
+				spotter
+				air_controller
+				ironside
+				arctic_water_expert
+				inshore_fighter
+				blue_water_expert
+				green_water_expert
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = main_naval_leader_2
+			traits = {
+				main_naval_traits_2
+			}
+		}
+	}
+}

@@ -1,0 +1,116 @@
+ideas = {
+	#经济法案
+	economy = {
+		main_economy_1 = {
+			cost = 100
+			removal_cost = -1
+			visible = {
+				tag = MMO
+			}
+			available = {
+			}
+			picture = GFX_idea_main_economy_1
+			modifier = {
+				# 政治点(以百分比形式增加 例0.25 = 25% )
+				political_power_factor = 0.35
+				#适役人口
+				conscription_factor = 0.1
+				#消费品
+				consumer_goods_factor = -0.35
+				#稳定度
+				stability_factor = 0.2
+				#战争支持度
+				war_support_factor = 0.2
+				# 民转军消耗
+				conversion_cost_civ_to_mil_factor = -0.5
+				# 军转民消耗
+				conversion_cost_mil_to_civ_factor = -0.5
+				# 生产效率保持
+				line_change_production_efficiency_factor = 0.45
+				#生产效率上限
+				production_factory_max_efficiency_factor = 0.45
+				# 研究速度
+				research_speed_factor = 0.25
+				#工厂产出
+				industrial_capacity_factory = 0.35
+				# 船坞产出
+				industrial_capacity_dockyard = 0.35
+				# 燃油容量
+				max_fuel_factor = 1
+				# 军用工厂建造速度
+				production_speed_arms_factory_factor = 0.3
+				# 民用工厂建造速度
+				production_speed_industrial_complex_factor = 0.3
+				# 海军船坞建造速度
+				production_speed_dockyard_factor = 0.3
+				# 改装速度加成
+				equipment_conversion_speed = 0.8
+			}
+			# default = yes
+			cancel_if_invalid = no
+		}
+	}
+	#贸易法案
+	trade_laws = {
+		main_trade_laws_1 = {
+			cost = 100
+			removal_cost = -1
+			visible = {
+				tag = MMO
+			}
+			available = {
+			}
+			picture = GFX_idea_main_economy_1
+			modifier = {
+				#生产效率上限
+				production_factory_max_efficiency_factor = 0.4
+				# 生产效率增长 
+				production_factory_efficiency_gain_factor = 0.65
+				# 生产效率保持
+				line_change_production_efficiency_factor = 0.3
+				#研究速度
+				research_speed_factor = 0.15
+				#工厂产出
+				industrial_capacity_factory = 0.25
+				# 船坞产出
+				industrial_capacity_dockyard = 0.25
+				min_export = 0.3
+				#可出口资源+60%（原版最高0.3）
+				# trade_opinion_factor = 0.9
+				# #贸易协定关系修正+90.00%（原版最高0.5）
+			}
+			# default = yes
+			cancel_if_invalid = no
+		}
+	}
+	#征兵法案
+	mobilization_laws = {
+		main_mobilization_laws_1 = {
+			cost = -500
+			removal_cost = -1
+			visible = {
+				tag = MMO
+			}
+			available = {
+			}
+			picture = GFX_idea_main_economy_1
+			modifier = {
+				#适役人口
+				conscription_factor = 0.25
+				#可征召人口
+				conscription = 0.15
+				#工厂产出
+				industrial_capacity_factory = 0.3
+				#建造速度
+				production_speed_buildings_factor = 0.35
+				# 船坞产出
+				industrial_capacity_dockyard = 0.25
+				# 部队训练时间 
+				training_time_factor = -0.15
+				mobilization_speed = 1
+			}
+			# default = yes
+			cancel_if_invalid = no
+		}
+	}
+}

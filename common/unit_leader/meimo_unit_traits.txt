@@ -1,0 +1,51 @@
+leader_traits = {
+	#纯血魅魔
+	main_unit_traits_1 = {
+		type = land
+		trait_type = personality_trait
+		modifier = {
+			breakthrough_factor = 0.1
+			army_morale_factor = 0.1
+			sickness_chance = -5
+			wounded_chance_factor = -5
+			experience_gain_factor = 0.5
+			offence = 0.2
+			defence = 0.2
+			army_speed_factor = 0.2
+			army_attack_factor = 0.1
+			army_defence_factor = 0.1
+			army_org_factor = 0.08
+			land_reinforce_rate = 0.15
+			experience_gain_army_factor = 0.1
+			experience_gain_army_unit_factor = 0.1
+			terrain_penalty_reduction = 0.3
+			supply_consumption_factor = -0.15
+			equipment_capture = 0.15
+			equipment_capture_factor = 0.2
+			desert = {
+				movement = 0.25
+			}
+			hills = {
+				movement = 0.25
+			}
+			forest = {
+				movement = 0.25
+			}
+			mountain = {
+				movement = 0.25
+			}
+			plains = {
+				movement = 0.25
+			}
+			urban = {
+				movement = 0.25
+			}
+			jungle = {
+				movement = 0.25
+			}
+			marsh = {
+				movement = 0.25
+			}
+		}
+	}
+}

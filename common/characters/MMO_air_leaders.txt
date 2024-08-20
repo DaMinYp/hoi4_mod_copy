@@ -1,0 +1,36 @@
+characters = {
+	main_air_leader_1 = {
+		name = main_air_leader_1
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_air/1.png"
+				small = "gfx/interface/ideas/air_small/1.png"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = main_air_leader_1
+			traits = {
+				main_air_traits_1
+			}
+			cost = 50
+		}
+	}
+	main_air_leader_2 = {
+		name = main_air_leader_2
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_air/2.png"
+				small = "gfx/interface/ideas/air_small/2.png"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = main_air_leader_2
+			traits = {
+				main_air_traits_2
+			}
+			cost = 50
+		}
+	}
+}

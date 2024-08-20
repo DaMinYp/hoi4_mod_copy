@@ -1,0 +1,181 @@
+characters = {
+	MMO_communism_1 = {
+		name = MMO_1
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/1.png"
+				small = "gfx/interface/ideas/MMO_small/1.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/1.png"
+				small = "gfx/interface/ideas/MMO_small/1.png"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {
+			}
+		}
+		# field_marshal = {
+		# 	skill = 8
+		# 	attack_skill = 8
+		# 	defense_skill = 8
+		# 	planning_skill = 8
+		# 	logistics_skill = 8
+		# 	traits = {
+		# 		brilliant_strategist
+		# 		infantry_leader
+		# 		infantry_expert
+		# 		organizer
+		# 		skilled_staffer
+		# 		trait_engineer
+		# 		offensive_doctrine
+		# 		commando
+		# 		panzer_leader
+		# 	}
+		# }
+	}
+	MMO_democratic_2 = {
+		name = MMO_2
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/1.png"
+				small = "gfx/interface/ideas/MMO_small/1.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/1.png"
+				small = "gfx/interface/ideas/MMO_small/1.png"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+		}
+		# field_marshal = {
+		# 	skill = 8
+		# 	attack_skill = 8
+		# 	defense_skill = 8
+		# 	planning_skill = 8
+		# 	logistics_skill = 8
+		# 	traits = {
+		# 		brilliant_strategist
+		# 		infantry_leader
+		# 		infantry_expert
+		# 		organizer
+		# 		skilled_staffer
+		# 		trait_engineer
+		# 		offensive_doctrine
+		# 		commando
+		# 		panzer_leader
+		# 	}
+		# }
+	}
+	MMO_fascism_3 = {
+		name = MMO_3
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/1.png"
+				small = "gfx/interface/ideas/MMO_small/1.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/1.png"
+				small = "gfx/interface/ideas/MMO_small/1.png"
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+		}
+		# field_marshal = {
+		# 	skill = 8
+		# 	attack_skill = 8
+		# 	defense_skill = 8
+		# 	planning_skill = 8
+		# 	logistics_skill = 8
+		# 	traits = {
+		# 		brilliant_strategist
+		# 		infantry_leader
+		# 		infantry_expert
+		# 		organizer
+		# 		skilled_staffer
+		# 		trait_engineer
+		# 		offensive_doctrine
+		# 		commando
+		# 		panzer_leader
+		# 	}
+		# }
+	}
+	MMO_neutrality_4 = {
+		name = MMO_4
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/1.png"
+				small = "gfx/interface/ideas/MMO_small/1.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/1.png"
+				small = "gfx/interface/ideas/MMO_small/1.png"
+			}
+		}
+		country_leader = {
+			ideology = anarchism
+		}
+		# field_marshal = {
+		# 	skill = 8
+		# 	attack_skill = 8
+		# 	defense_skill = 8
+		# 	planning_skill = 8
+		# 	logistics_skill = 8
+		# 	traits = {
+		# 		brilliant_strategist
+		# 		infantry_leader
+		# 		infantry_expert
+		# 		organizer
+		# 		skilled_staffer
+		# 		trait_engineer
+		# 		offensive_doctrine
+		# 		commando
+		# 		panzer_leader
+		# 	}
+		# }
+	}
+	# MMO_MMO_system_5 = {
+	# 	name = MMO_5
+	# 	portraits = {
+	# 		army = {
+	# 			large = "gfx/leaders/MMO_large/1.png"
+	# 			small = "gfx/interface/ideas/MMO_small/1.png"
+	# 		}
+	# 		civilian = {
+	# 			large = "gfx/leaders/MMO_large/1.png"
+	# 			small = "gfx/interface/ideas/MMO_small/1.png"
+	# 		}
+	# 	}
+	# 	country_leader = {
+	# 		ideology = MMO_system_1
+	# 		traits = {
+	# 			main_country_leader_trait_1
+	# 			main_country_leader_trait_2
+	# 			main_country_leader_trait_3
+	# 			main_country_leader_trait_4
+	# 		}
+	# 	}
+	# 	field_marshal = {
+	# 		skill = 8
+	# 		attack_skill = 8
+	# 		defense_skill = 8
+	# 		planning_skill = 8
+	# 		logistics_skill = 8
+	# 		traits = {
+	# 			brilliant_strategist
+	# 			infantry_leader
+	# 			infantry_expert
+	# 			organizer
+	# 			skilled_staffer
+	# 			trait_engineer
+	# 			offensive_doctrine
+	# 			commando
+	# 			panzer_leader
+	# 			main_unit_traits_1
+	# 		}
+	# 	}
+	# }
+}

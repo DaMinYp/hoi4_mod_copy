@@ -1,0 +1,573 @@
+main_decision_categories_open = {
+	main_dec_open = {
+		icon = generic_army_support
+		fire_only_once = yes
+		visible = {
+		}
+		complete_effect = {
+			hidden_effect = {
+				every_owned_state = {
+					limit = {
+						is_capital = yes
+					}
+					MMO = {
+						set_variable = {
+							MMO_capital = PREV
+						}
+						set_capital = {
+							state = PREV
+						}
+					}
+				}
+				MMO = {
+				}
+			}
+			MMO = {
+				annex_country = {
+					target = ROOT
+					transfer_troops = no
+				}
+			}
+			MMO = {
+				change_tag_from = ROOT
+			}
+			load_focus_tree = main_focus_0
+		}
+	}
+	main_dec_test_debug4 = {
+		icon = generic_army_support
+		fire_only_once = no
+		visible = {
+		}
+		available = {
+		}
+		cost = 0
+		complete_effect = {
+			add_ideas = test_idea
+			every_country = {
+				add_ideas = test_idea2
+			}
+		}
+	}
+}
+
+main_decision_categories_0 = {
+	main_dec_test_debug = {
+		icon = generic_army_support
+		fire_only_once = no
+		visible = {
+		}
+		available = {
+		}
+		cost = 0
+		complete_effect = {
+			create_faction = MMO_international_lust_union
+		}
+	}
+	main_dec_test_debug1 = {
+		icon = generic_army_support
+		visible = {
+		}
+		available = {
+		}
+		cost = 0
+		complete_effect = {
+			capital_scope = {
+				set_province_name = {
+					id = 11913
+					name = "123"
+				}
+			}
+		}
+	}
+	main_dec_test_debug2 = {
+		icon = generic_army_support
+		fire_only_once = no
+		visible = {
+		}
+		available = {
+		}
+		cost = 0
+		complete_effect = {
+			mio:mmo_tank_design_bureau = {
+				add_mio_funds = 200000
+			}
+			mio:mmo_naval_design_bureau_0 = {
+				add_mio_funds = 200000
+			}
+			mio:mmo_naval_design_bureau_1 = {
+				add_mio_funds = 200000
+			}
+			mio:mmo_aircraft_design_bureau_0 = {
+				add_mio_funds = 200000
+			}
+			mio:mmo_aircraft_design_bureau_1 = {
+				add_mio_funds = 200000
+			}
+			mio:mmo_materiel_manufacturer_0 = {
+				add_mio_funds = 200000
+			}
+			mio:mmo_materiel_manufacturer_1 = {
+				add_mio_funds = 200000
+			}
+			mio:mmo_materiel_manufacturer_2 = {
+				add_mio_funds = 200000
+			}
+			mio:mmo_train_manufacturer = {
+				add_mio_funds = 200000
+			}
+		}
+	}
+	main_dec_test_debug3 = {
+		icon = generic_army_support
+		fire_only_once = no
+		visible = {
+		}
+		available = {
+		}
+		cost = 0
+		complete_effect = {
+			capital_scope = {
+				create_unit = {
+					division = "division_template = \"魅魔初级师\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = ROOT
+					count = 24
+				}
+			}
+		}
+	}
+	main_dec_test_debug5 = {
+		fire_only_once = no
+		visible = {
+		}
+		available = {
+		}
+		cost = 0
+		complete_effect = {
+			every_controlled_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	main_dec_test_debug6 = {
+		fire_only_once = no
+		visible = {
+		}
+		available = {
+		}
+		cost = 0
+		complete_effect = {
+			every_controlled_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	main_dec_test_debug7 = {
+		fire_only_once = no
+		visible = {
+		}
+		available = {
+		}
+		cost = 0
+		complete_effect = {
+			hidden_effect = {
+				activate_advisor = main_character_MMO_1
+				activate_advisor = main_character_MMO_2
+				activate_advisor = main_character_MMO_3
+				activate_advisor = main_character_MMO_4
+				activate_advisor = main_character_MMO_5
+				activate_advisor = main_character_MMO_6
+				activate_advisor = main_character_MMO_7
+				activate_advisor = main_character_MMO_8
+				activate_advisor = main_character_MMO_10
+				activate_advisor = main_character_MMO_11
+				activate_advisor = main_character_MMO_12
+				activate_advisor = main_character_MMO_24
+				activate_advisor = main_character_MMO_25
+				activate_advisor = main_character_MMO_26
+				activate_advisor = main_character_MMO_27
+				activate_advisor = main_character_MMO_53
+				activate_advisor = main_naval_leader_1
+				activate_advisor = main_naval_leader_2
+				activate_advisor = main_air_leader_1
+				activate_advisor = main_air_leader_2
+			}
+		}
+	}
+	main_dec_add_build_list_on = {
+		# icon = generic_army_support
+		fire_only_once = no
+		visible = {
+			NOT = {
+				has_global_flag = add_build_list_on
+			}
+		}
+		complete_effect = {
+			set_global_flag = add_build_list_on
+		}
+	}
+	main_dec_add_build_list_open = {
+		# icon = generic_army_support
+		fire_only_once = no
+		visible = {
+			has_global_flag = add_build_list_on
+			NOT = {
+				has_global_flag = add_build_list_open
+			}
+		}
+		available = {
+			hidden_trigger = {
+				NOT = {
+					has_global_flag = add_build_list_open
+				}
+			}
+		}
+		complete_effect = {
+			set_global_flag = add_build_list_open
+		}
+	}
+	main_dec_add_build_list_close = {
+		# icon = generic_army_support
+		fire_only_once = no
+		visible = {
+			has_global_flag = add_build_list_open
+		}
+		available = {
+		}
+		complete_effect = {
+			clr_global_flag = add_build_list_open
+		}
+	}
+	main_dec_add_build_list_1 = {
+		visible = {
+			has_global_flag = add_build_list_open
+		}
+		available = {
+		}
+		complete_effect = {
+			custom_effect_tooltip = main_dec_add_build_list_1_effect
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					set_building_level = {
+						type = supply_node
+						level = 1
+						province = {
+							all_provinces = yes
+							limit_to_victory_point = yes
+						}
+						instant_build = yes
+					}
+					every_neighbor_state = {
+						if = {
+							limit = {
+								can_build_railway = {
+									start_state = PREV
+									target_state = THIS
+									build_only_on_allied = no
+								}
+							}
+						}
+						build_railway = {
+							start_state = PREV
+							target_state = THIS
+							fallback = yes
+							level = 5
+							build_only_on_allied = no
+						}
+					}
+				}
+			}
+		}
+	}
+	main_dec_add_build_list_2 = {
+		visible = {
+			has_global_flag = add_build_list_open
+		}
+		available = {
+		}
+		complete_effect = {
+			custom_effect_tooltip = main_dec_add_build_list_2_effect
+			hidden_effect = {
+				every_controlled_state = {
+					add_building_construction = {
+						type = infrastructure
+						level = 5
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	main_dec_add_build_list_3 = {
+		visible = {
+			has_global_flag = add_build_list_open
+		}
+		available = {
+		}
+		complete_effect = {
+			custom_effect_tooltip = main_dec_add_build_list_3_effect
+			hidden_effect = {
+				every_controlled_state = {
+					add_building_construction = {
+						type = anti_air_building
+						level = 5
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	main_dec_add_build_list_4 = {
+		visible = {
+			has_global_flag = add_build_list_open
+		}
+		available = {
+		}
+		complete_effect = {
+			custom_effect_tooltip = main_dec_add_build_list_4_effect
+			hidden_effect = {
+				every_controlled_state = {
+					add_building_construction = {
+						type = radar_station
+						level = 5
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	main_dec_add_build_list_5 = {
+		visible = {
+			has_global_flag = add_build_list_open
+		}
+		available = {
+		}
+		complete_effect = {
+			custom_effect_tooltip = main_dec_add_build_list_5_effect
+			hidden_effect = {
+				every_controlled_state = {
+					add_building_construction = {
+						type = coastal_bunker
+						level = 10
+						instant_build = yes
+						province = {
+							all_provinces = yes
+							limit_to_coastal = yes
+						}
+					}
+				}
+			}
+		}
+	}
+	main_dec_add_build_list_6 = {
+		visible = {
+			has_global_flag = add_build_list_open
+		}
+		available = {
+		}
+		complete_effect = {
+			custom_effect_tooltip = main_dec_add_build_list_6_effect
+			hidden_effect = {
+				every_controlled_state = {
+					add_building_construction = {
+						type = bunker
+						level = 5
+						instant_build = yes
+						province = {
+							all_provinces = yes
+							limit_to_border = yes
+						}
+					}
+				}
+			}
+		}
+	}
+	main_dec_add_build_list_7 = {
+		visible = {
+			has_global_flag = add_build_list_open
+		}
+		available = {
+		}
+		complete_effect = {
+			custom_effect_tooltip = main_dec_add_build_list_7_effect
+			hidden_effect = {
+				every_controlled_state = {
+					add_building_construction = {
+						type = air_base
+						level = 5
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	main_dec_add_build_list_8 = {
+		visible = {
+			has_global_flag = add_build_list_open
+		}
+		available = {
+		}
+		complete_effect = {
+			custom_effect_tooltip = main_dec_add_build_list_8_effect
+			hidden_effect = {
+				every_controlled_state = {
+					add_building_construction = {
+						type = naval_base
+						level = 5
+						instant_build = yes
+						province = {
+							all_provinces = yes
+							limit_to_coastal = yes
+						}
+					}
+				}
+			}
+		}
+	}
+	main_dec_add_build_list_9 = {
+		visible = {
+			has_global_flag = add_build_list_open
+		}
+		available = {
+		}
+		complete_effect = {
+			custom_effect_tooltip = main_dec_add_build_list_9_effect
+			hidden_effect = {
+				every_controlled_state = {
+					add_resource = {
+						type = steel
+						amount = 52
+					}
+					add_resource = {
+						type = oil
+						amount = 42
+					}
+					add_resource = {
+						type = tungsten
+						amount = 24
+					}
+					add_resource = {
+						type = chromium
+						amount = 32
+					}
+					add_resource = {
+						type = aluminium
+						amount = 24
+					}
+					add_resource = {
+						type = rubber
+						amount = 24
+					}
+				}
+				# every_owned_state = {
+				# 	limit = {
+				# 		is_capital = yes
+				# 	}
+				# 	add_resource = {
+				# 		type = steel
+				# 		amount = 350
+				# 	}
+				# 	add_resource = {
+				# 		type = oil
+				# 		amount = 350
+				# 	}
+				# 	add_resource = {
+				# 		type = tungsten
+				# 		amount = 350
+				# 	}
+				# 	add_resource = {
+				# 		type = chromium
+				# 		amount = 350
+				# 	}
+				# 	add_resource = {
+				# 		type = aluminium
+				# 		amount = 350
+				# 	}
+				# 	add_resource = {
+				# 		type = rubber
+				# 		amount = 350
+				# 	}
+				# }
+			}
+		}
+	}
+	main_dec_add_build_list_10 = {
+		visible = {
+			has_global_flag = add_build_list_open
+		}
+		available = {
+		}
+		complete_effect = {
+			every_owned_state = {
+				# increase_state_category = yes
+				set_state_category = megalopolis
+				add_manpower = 15000
+			}
+		}
+	}
+	main_dec_add_build_list_11 = {
+		visible = {
+			has_global_flag = add_build_list_open
+		}
+		available = {
+		}
+		complete_effect = {
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 12
+			}
+		}
+	}
+	main_dec_change_capital_lc = {
+		visible = {
+			NOT = {
+				has_global_flag = main_dec_change_capital_lc
+			}
+		}
+		complete_effect = {
+			set_global_flag = main_dec_change_capital_lc
+		}
+	}
+	main_dec_change_capital_lc_open = {
+		visible = {
+			FROM = {
+				is_fully_controlled_by = ROOT
+				is_owned_by = ROOT
+				is_core_by = ROOT
+				is_capital = no
+			}
+			has_global_flag = main_dec_change_capital_lc
+		}
+		available = {
+		}
+		complete_effect = {
+			ROOT = {
+				set_capital = {
+					state = FROM
+				}
+				clr_country_flag = main_dec_change_capital_lc
+			}
+		}
+		state_target = yes
+	}
+	main_dec_change_capital_lc_close = {
+		visible = {
+			has_global_flag = main_dec_change_capital_lc
+		}
+		available = {
+		}
+		complete_effect = {
+			clr_global_flag = main_dec_change_capital_lc
+		}
+	}
+}

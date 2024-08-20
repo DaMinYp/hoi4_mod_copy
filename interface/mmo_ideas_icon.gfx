@@ -1,0 +1,25 @@
+spriteTypes = {
+	#经济法案
+	spriteType = {
+		name = "GFX_idea_main_economy_1"
+		textureFile = "gfx/interface/ideas/laws_icon/laws_icon_1.png"
+	}
+	#贸易法案
+	spriteType = {
+		name = "GFX_idea_main_trade_laws_1"
+		textureFile = "gfx/interface/ideas/laws_icon/laws_icon_2.png"
+	}
+	#征兵法案
+	spriteType = {
+		name = "GFX_idea_main_mobilization_laws_1"
+		textureFile = "gfx/interface/ideas/laws_icon/laws_icon_3.png"
+	}
+	spriteType = {
+		name = "GFX_idea_industrial_icon_1"
+		textureFile = "gfx/interface/ideas/industrial_icon/GFX_idea_industrial_icon_1.png"
+	}
+	spriteType = {
+		name = "GFX_idea_mio_icon_1"
+		texturefile = "gfx/interface/ideas/mio/mio_icon_1.png"
+	}
+}

@@ -1,0 +1,943 @@
+focus_tree = {
+	id = main_focus_0
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MMO
+		}
+	}
+	continuous_focus_position = {
+		x = 0
+		y = 1700
+	}
+	default = no
+	#女皇称帝
+	focus = {
+		id = focu_item_1
+		icon = GFX_focus_focu_1
+		cost = 0
+		x = 16
+		y = 0
+		completion_reward = {
+			add_political_power = 50
+			add_country_leader_trait = main_country_leader_trait_4
+			every_owned_state = {
+				limit = {
+					is_capital = yes
+				}
+				set_state_name = "欲望之地"
+				# reset_province_name = "欲望深渊"
+			}
+		}
+	}
+	#暂定
+	focus = {
+		id = focu_item_2
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_1
+		}
+		x = 10
+		y = 1
+		completion_reward = {
+			# 添加指挥点数
+			add_command_power = 500
+		}
+	}
+	#重建魅魔行政
+	focus = {
+		id = focu_item_3
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_1
+		}
+		x = 16
+		y = 1
+		completion_reward = {
+			add_political_power = 150
+			add_ideas = main_focu_idea_1
+		}
+	}
+	#制定魅魔宪法
+	focus = {
+		id = focu_item_4
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_1
+		}
+		x = 22
+		y = 1
+		completion_reward = {
+			add_political_power = 150
+			add_ideas = main_focu_idea_2
+		}
+	}
+	#魅魔帝国的新生
+	focus = {
+		id = focu_item_5
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_3
+		}
+		prerequisite = {
+			focus = focu_item_4
+		}
+		prerequisite = {
+			focus = focu_item_2
+		}
+		x = 16
+		y = 2
+		completion_reward = {
+			every_state = {
+				limit = {
+					is_controlled_by = MMO
+				}
+				add_core_of = MMO
+			}
+			add_ideas = main_focu_idea_3
+		}
+	}
+	focus = {
+		id = focu_item_6
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_5
+		}
+		x = 7
+		y = 3
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_item_7
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_6
+		}
+		x = 6
+		y = 4
+	}
+	focus = {
+		id = focu_item_9
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_7
+		}
+		x = 5
+		y = 5
+	}
+	focus = {
+		id = focu_item_56
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_9
+		}
+		x = 4
+		y = 6
+	}
+	focus = {
+		id = focu_item_8
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_6
+		}
+		x = 8
+		y = 4
+	}
+	focus = {
+		id = focu_item_11
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_5
+		}
+		x = 10
+		y = 3
+	}
+	focus = {
+		id = focu_item_12
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_5
+		}
+		x = 14
+		y = 3
+	}
+	focus = {
+		id = focu_item_15
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_12
+		}
+		x = 13
+		y = 4
+	}
+	focus = {
+		id = focu_item_16
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_15
+		}
+		x = 12
+		y = 5
+	}
+	focus = {
+		id = focu_item_19
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_12
+		}
+		x = 15
+		y = 4
+	}
+	focus = {
+		id = focu_item_13
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_5
+		}
+		x = 18
+		y = 3
+	}
+	focus = {
+		id = focu_item_26
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_13
+		}
+		x = 17
+		y = 4
+	}
+	focus = {
+		id = focu_item_23
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_19
+			focus = focu_item_26
+		}
+		x = 16
+		y = 5
+	}
+	focus = {
+		id = focu_item_27
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_13
+		}
+		x = 19
+		y = 4
+	}
+	focus = {
+		id = focu_item_30
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_26
+		}
+		prerequisite = {
+			focus = focu_item_27
+		}
+		x = 18
+		y = 5
+	}
+	focus = {
+		id = focu_item_24
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_23
+		}
+		prerequisite = {
+			focus = focu_item_30
+		}
+		x = 17
+		y = 6
+	}
+	focus = {
+		id = focu_item_28
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_27
+		}
+		x = 20
+		y = 5
+	}
+	focus = {
+		id = focu_item_29
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_28
+		}
+		x = 19
+		y = 6
+	}
+	focus = {
+		id = focu_item_25
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_29
+		}
+		x = 18
+		y = 7
+	}
+	#魅魔军事改革
+	focus = {
+		id = focu_item_14
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_5
+		}
+		x = 30
+		y = 3
+	}
+	# #重组魅魔军队
+	# focus = {
+	# 	id = focu_item_35
+	# 	icon = GFX_goal_unknown
+	# 	cost = 0
+	# 	prerequisite = {
+	# 		focus = focu_item_14
+	# 	}
+	# 	x = 24
+	# 	y = 4
+	# }
+	# 建立魅魔军队
+	focus = {
+		id = focu_item_37
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_14
+		}
+		x = 24
+		y = 4
+		completion_reward = {
+			army_experience = 80
+			add_ideas = main_focu_idea_4
+		}
+	}
+	focus = {
+		id = focu_item_49
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_37
+		}
+		x = 22
+		y = 5
+	}
+	#魅魔的智慧
+	focus = {
+		id = focu_item_50
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_37
+		}
+		x = 25
+		y = 5
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 8
+				uses = 5
+				category = infantry_weapons
+				category = artillery
+				category = motorized_equipment
+				category = armor
+			}
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 2
+				uses = 4
+				category = support_tech
+			}
+		}
+	}
+	#学习常规武器
+	focus = {
+		id = focu_item_53
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_50
+		}
+		x = 24
+		y = 6
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 2
+				uses = 4
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+	}
+	#性武器
+	focus = {
+		id = focu_item_55
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_53
+		}
+		x = 24
+		y = 7
+		completion_reward = {
+			add_ideas = main_focu_idea_5
+		}
+	}
+	#学习机动装备
+	focus = {
+		id = focu_item_54
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_50
+		}
+		x = 26
+		y = 6
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 2
+				uses = 4
+				category = motorized_equipment
+				category = armor
+			}
+		}
+	}
+	#淫装备
+	focus = {
+		id = focu_item_58
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_54
+		}
+		x = 26
+		y = 7
+		completion_reward = {
+			add_ideas = main_focu_idea_6
+		}
+	}
+	#唤醒子宫的淫水
+	focus = {
+		id = focu_item_36
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_14
+		}
+		x = 30
+		y = 4
+		completion_reward = {
+			navy_experience = 80
+			add_ideas = main_focu_idea_7
+		}
+	}
+	#淫水滋养
+	focus = {
+		id = focu_item_61
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_36
+		}
+		x = 28
+		y = 5
+		completion_reward = {
+			add_ideas = main_focu_idea_8
+		}
+	}
+	#淫识
+	focus = {
+		id = focu_item_62
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_36
+		}
+		x = 30
+		y = 5
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = naval_doc_bonus
+				cost_reduction = 0.5
+				uses = 5
+				category = naval_doctrine
+			}
+		}
+	}
+	#魅魔造船厂
+	focus = {
+		id = focu_item_64
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_61
+			focus = focu_item_62
+		}
+		x = 29
+		y = 6
+		completion_reward = {
+			add_ideas = main_focu_idea_10
+		}
+	}
+	#改造海军魅魔
+	focus = {
+		id = focu_item_63
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_36
+		}
+		x = 32
+		y = 5
+		completion_reward = {
+			add_ideas = main_focu_idea_9
+		}
+	}
+	#淫水的力量
+	focus = {
+		id = focu_item_65
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_62
+			focus = focu_item_63
+		}
+		x = 31
+		y = 6
+		completion_reward = {
+			add_ideas = main_focu_idea_11
+		}
+	}
+	# 这是我的子宫
+	focus = {
+		id = focu_item_66
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_64
+		}
+		prerequisite = {
+			focus = focu_item_65
+		}
+		x = 30
+		y = 7
+		completion_reward = {
+			add_ideas = main_naval_idea_top
+		}
+	}
+	#魅魔空军
+	focus = {
+		id = focu_item_60
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_14
+		}
+		x = 36
+		y = 4
+		completion_reward = {
+			add_ideas = main_focu_idea_12
+		}
+	}
+	#魅魔飞行员
+	focus = {
+		id = focu_item_67
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_60
+		}
+		x = 35
+		y = 5
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = main_focu_idea_12
+				add_idea = main_focu_idea_12_2
+			}
+		}
+	}
+	#魅魔的飞机
+	focus = {
+		id = focu_item_69
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_67
+		}
+		x = 35
+		y = 6
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = main_focu_idea_12_2
+				add_idea = main_focu_idea_12_3
+			}
+		}
+	}
+	focus = {
+		id = focu_item_10
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_7
+		}
+		prerequisite = {
+			focus = focu_item_8
+		}
+		x = 7
+		y = 5
+	}
+	focus = {
+		id = focu_item_17
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_16
+		}
+		x = 13
+		y = 6
+	}
+	focus = {
+		id = focu_item_18
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_17
+		}
+		x = 14
+		y = 7
+	}
+	focus = {
+		id = focu_item_20
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_15
+		}
+		prerequisite = {
+			focus = focu_item_19
+		}
+		x = 14
+		y = 5
+	}
+	focus = {
+		id = focu_item_21
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_20
+		}
+		prerequisite = {
+			focus = focu_item_23
+		}
+		x = 15
+		y = 6
+	}
+	focus = {
+		id = focu_item_22
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_21
+		}
+		prerequisite = {
+			focus = focu_item_24
+		}
+		x = 16
+		y = 7
+	}
+	focus = {
+		id = focu_item_31
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_18
+		}
+		prerequisite = {
+			focus = focu_item_22
+		}
+		prerequisite = {
+			focus = focu_item_25
+		}
+		x = 16
+		y = 8
+	}
+	focus = {
+		id = focu_item_32
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_11
+		}
+		x = 10
+		y = 5
+	}
+	focus = {
+		id = focu_item_33
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_32
+			focus = focu_item_10
+		}
+		x = 10
+		y = 6
+	}
+	focus = {
+		id = focu_item_34
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_10
+			focus = focu_item_32
+		}
+		x = 7
+		y = 6
+	}
+	focus = {
+		id = focu_item_38
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_33
+		}
+		x = 10
+		y = 7
+	}
+	focus = {
+		id = focu_item_39
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_38
+		}
+		x = 10
+		y = 8
+	}
+	focus = {
+		id = focu_item_40
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_39
+		}
+		prerequisite = {
+			focus = focu_item_31
+		}
+		x = 13
+		y = 9
+	}
+	focus = {
+		id = focu_item_41
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_34
+		}
+		x = 8
+		y = 7
+	}
+	focus = {
+		id = focu_item_42
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_34
+		}
+		x = 6
+		y = 7
+	}
+	focus = {
+		id = focu_item_43
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_41
+		}
+		x = 5
+		y = 8
+	}
+	focus = {
+		id = focu_item_44
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_41
+		}
+		x = 7
+		y = 8
+	}
+	focus = {
+		id = focu_item_45
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_43
+		}
+		prerequisite = {
+			focus = focu_item_44
+		}
+		x = 6
+		y = 9
+	}
+	focus = {
+		id = focu_item_46
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_45
+		}
+		x = 6
+		y = 10
+	}
+	focus = {
+		id = focu_item_47
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_46
+		}
+		x = 6
+		y = 11
+	}
+	focus = {
+		id = focu_item_48
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_42
+		}
+		x = 3
+		y = 8
+	}
+	focus = {
+		id = focu_item_51
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_49
+		}
+		x = 22
+		y = 6
+	}
+	focus = {
+		id = focu_item_52
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_51
+		}
+		x = 22
+		y = 7
+	}
+	focus = {
+		id = focu_item_57
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_40
+		}
+		x = 13
+		y = 10
+	}
+	#淫魔之军
+	focus = {
+		id = focu_item_59
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_52
+		}
+		prerequisite = {
+			focus = focu_item_55
+		}
+		prerequisite = {
+			focus = focu_item_58
+		}
+		x = 24
+		y = 8
+		completion_reward = {
+			remove_ideas = main_focu_idea_4
+			add_ideas = main_army_idea_top
+		}
+	}
+	#魅魔空合经验
+	focus = {
+		id = focu_item_68
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_60
+		}
+		x = 37
+		y = 5
+		completion_reward = {
+			add_ideas = main_focu_idea_13
+		}
+	}
+	#完善我们的经验
+	focus = {
+		id = focu_item_70
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_68
+		}
+		x = 37
+		y = 6
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = main_focu_idea_13
+				add_idea = main_focu_idea_13_2
+			}
+		}
+	}
+	#天空属于魅魔
+	focus = {
+		id = focu_item_71
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = focu_item_69
+		}
+		prerequisite = {
+			focus = focu_item_70
+		}
+		x = 36
+		y = 7
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = main_focu_idea_12_3
+				add_idea = main_focu_idea_12_4
+			}
+			add_ideas = main_air_idea_top
+		}
+	}
+}

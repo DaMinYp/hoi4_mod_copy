@@ -1,0 +1,150 @@
+ideas = {
+	hidden_ideas = {
+		cas_industry_research = {
+			allowed = {
+				always = no
+			}
+			removal_civil_war = -1
+			available = {
+			}
+			icon = GFX_idea_jap_supremacy_of_technology
+			modifier = {
+				production_factory_max_efficiency_factor = 1				#生产效率保持
+				production_factory_start_efficiency_factor = 0.2
+				line_change_production_efficiency_factor = 0.5				#生产效率上限
+				production_factory_efficiency_gain_factor = 0.3				#生产效率增长
+				production_speed_infrastructure_factor = 0.3				# 基础设施设速率修正
+				production_speed_industrial_complex_factor = 0.3				# 民用工厂建设速率修正
+				production_speed_arms_factory_factor = 0.3				# 军用工厂建设速率修正
+			}
+		}
+		mmo_mobile_command_center = {
+			##铁路总局mio-移动指挥中心
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+			}
+			removal_cost = -1
+			picture = idea_mmo_special_forces_idea
+			modifier = {
+				planning_speed = 0.1
+			}
+		}
+		mmo_oam_system = {
+			##铁路总局mio-调控管理系统
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+			}
+			removal_cost = -1
+			picture = idea_mmo_special_forces_idea
+			modifier = {
+				supply_node_range = 0.3
+			}
+		}
+		mmo_experimental_high_speed_rail = {
+			##铁路总局mio-试制型高铁
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+			}
+			removal_cost = -1
+			picture = idea_mmo_special_forces_idea
+			modifier = {
+				mobilization_speed = 0.3
+				local_resources_factor = 0.1
+				production_factory_start_efficiency_factor = 0.1
+			}
+		}
+		mmo_idea_alice_tank_production = {
+			##装甲师设计
+			picture = generic_infantry_bonus
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				armor = {
+					reliability = 0.25
+				}
+			}
+			modifier = {
+			}
+		}
+		mmo_escort_ship_mio_trait_9_idea = {
+			##海上服务mio-维修队
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+			}
+			removal_cost = -1
+			picture = idea_mmo_special_forces_idea
+			modifier = {
+				repair_speed_factor = 0.15
+				naval_critical_receive_chance_factor = -0.5
+			}
+		}
+		mmo_escort_ship_mio_trait_10_idea = {
+			##海上服务mio-服务队
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+			}
+			removal_cost = -1
+			picture = idea_mmo_special_forces_idea
+			modifier = {
+				sortie_efficiency = 0.15
+			}
+		}
+		mmo_escort_ship_mio_trait_13_idea = {
+			##海上服务mio-搜救队
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+			}
+			removal_cost = -1
+			picture = idea_mmo_special_forces_idea
+			modifier = {
+				navy_weather_penalty = -0.3
+				naval_retreat_speed = 0.1
+			}
+		}
+		mmo_escort_ship_mio_trait_14_idea = {
+			##海上服务mio-军乐队
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+			}
+			removal_cost = -1
+			picture = idea_mmo_special_forces_idea
+			modifier = {
+				positioning = 0.15
+			}
+		}
+		mmo_escort_ship_mio_trait_16_idea = {
+			##海上服务mio-舰载综合服务中心
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+			}
+			removal_cost = -1
+			picture = idea_mmo_special_forces_idea
+			modifier = {
+				mission_convoy_escort_efficiency = 0.1
+				convoy_raiding_efficiency_factor = 0.1
+				spotting_chance_factor = 0.1
+				carrier_capacity_penalty_reduction = -0.2
+				naval_night_attack = 0.15
+				screening_efficiency = 0.15
+			}
+		}
+	}
+}

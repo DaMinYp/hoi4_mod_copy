@@ -1,0 +1,48 @@
+MMO_occupation_laws_1 = {
+	icon = 14
+	sound_effect = "Martial_Law_Interface_Foreign_Cvilian_Oversight"
+	state_modifier = {
+		resistance_target = -1
+		required_garrison_factor = -1
+		resistance_damage_to_garrison = -1
+		compliance_gain = +1
+		local_factories = 1
+		local_resources = 1
+		enemy_operative_detection_chance_over_occupied_tag = 100
+		enemy_intel_network_gain_factor_over_occupied_tag = -1
+		local_manpower = 1
+		repair_speed_arms_factory_factor = 1
+		repair_speed_industrial_complex_factor = 1
+		RESISTANCE_DECAY = 10
+	}
+	visible = {
+		tag = MMO
+	}
+	available = {
+		tag = MMO
+	}
+}
+
+MMO_occupation_laws_2 = {
+	default_law = yes
+	icon = 16
+	sound_effect = "Martial_Law_Interface_Foreign_Cvilian_Oversight"
+	state_modifier = {
+		local_resources = 0.5
+		local_factories = 0.3
+		resistance_target = -1
+		resistance_decay = 1
+		required_garrison_factor = -1
+		resistance_damage_to_garrison = -1
+		local_manpower = 0.3
+		enemy_intel_network_gain_factor_over_occupied_tag = -0.4
+		repair_speed_arms_factory_factor = 0.25
+		repair_speed_industrial_complex_factor = 0.25
+	}
+	visible = {
+		tag = MMO
+	}
+	available = {
+		tag = MMO
+	}
+}

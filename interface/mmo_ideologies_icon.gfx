@@ -1,0 +1,7 @@
+spriteTypes = {
+	#意识形态
+	spriteType = {
+		name = "GFX_ideology_MMO_system_group"
+		textureFile = "gfx/interface/ideologies/GFX_ideology_meimo_group2.png"
+	}
+}

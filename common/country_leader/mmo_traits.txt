@@ -1,0 +1,323 @@
+leader_traits = {
+	main_country_leader_trait_1 = {
+		random = no
+		resistance_target = -1
+		required_garrison_factor = -1
+		compliance_growth = 0.5
+		resistance_decay = 0.5
+		political_power_factor = 0.25
+		justify_war_goal_time = -0.5
+		operation_outcome = 0.5		#行动效率
+		intelligence_agency_defense = 10		#反间谍
+	}
+	main_country_leader_trait_2 = {
+		random = no
+		army_attack_factor = 0.15
+		army_defence_factor = 0.15
+		army_speed_factor = 0.15
+		army_org_factor = 0.15
+		breakthrough_factor = 0.15
+		no_supply_grace = 48
+	}
+	main_country_leader_trait_3 = {
+		random = no
+		conscription = 0.1
+		non_core_manpower = 0.5
+		war_support_weekly = 0.1
+		industrial_capacity_factory = 0.2
+		army_infantry_attack_factor = 0.15
+		army_infantry_defence_factor = 0.15
+		training_time_army_factor = -0.2
+		consumer_goods_factor = -0.15
+	}
+	#魅魔女皇
+	main_country_leader_trait_4 = {
+		random = no
+		political_power_factor = 0.45
+		stability_weekly = 0.005
+		war_support_weekly = 0.005
+	}
+	#帝国元首
+	main_trait_1 = {
+		random = no
+		experience_gain_army = 1
+		experience_gain_navy = 1
+		experience_gain_air = 1
+		army_morale_factor = 0.2
+		army_attack_factor = 0.2
+		army_defence_factor = 0.2
+		army_speed_factor = 0.15
+		army_org_factor = 0.15
+		# 陆军学说花费
+		land_doctrine_cost_factor = -0.45
+		# 海军学说花费
+		naval_doctrine_cost_factor = -0.45
+		# 空军学说花费
+		air_doctrine_cost_factor = -0.45
+		max_command_power = 2000
+	}
+	#帝国总参谋长
+	main_trait_2 = {
+		random = no
+		experience_gain_army = 0.35
+		dig_in_speed_factor = 0.3
+		planning_speed = 0.3
+		max_planning_factor = 0.3
+		max_dig_in_factor = 0.3
+		# 陆军学说花费
+		land_doctrine_cost_factor = -0.15
+		# 海军学说花费
+		naval_doctrine_cost_factor = -0.15
+		# 空军学说花费
+		air_doctrine_cost_factor = -0.15
+	}
+	#帝国奶油总管
+	main_trait_3 = {
+		random = no
+		experience_gain_army = 0.35
+		army_attack_factor = 0.2		#单位攻击
+		army_defence_factor = 0.2		#单位防御
+		terrain_penalty_reduction = 0.25		#地形惩罚降低
+		sickness_chance = -1.5		#伤病几率
+		training_time_factor = -0.15		#训练时间
+		land_reinforce_rate = 0.2		#增援率
+		land_night_attack = 0.2		#陆战夜战攻击
+		pocket_penalty = -0.2		#包围惩罚
+		combat_width_factor = -0.2		#己方战场宽度
+		attrition = -0.35		#陆军损耗
+		winter_attrition_factor = -0.2		#冬季损耗
+		winter_attrition = -0.2		#冬季损耗
+		heat_attrition_factor = -0.2		#炎热损耗
+		heat_attrition = -0.2		#炎热损耗
+		no_supply_grace = 108		#携行补给
+		out_of_supply_factor = -0.45		#补给耗尽
+		supply_consumption_factor = -0.25		#补给消耗
+		experience_loss_factor = -0.45		#有经验的士兵的损失
+		coordination_bonus = 0.1		#协同性
+		initiative_factor = 0.1		#主动性
+		supply_factor = 0.25
+		supply_node_range = 0.45
+	}
+	#帝国处刑官
+	main_trait_4 = {
+		random = no
+		experience_gain_army = 0.35
+		dig_in_speed_factor = 0.2
+		army_infantry_attack_factor = 0.15
+		#步兵师进攻（原版最高0.15）
+		army_infantry_defence_factor = 0.15
+		#步兵师防御（原版最高0.2）
+		army_artillery_attack_factor = 0.15
+		army_artillery_defence_factor = 0.15
+		#增援率+10%（原版最高0.02）
+		max_dig_in_factor = 0.1
+		#堑壕上限
+	}
+	#帝国机动官
+	main_trait_5 = {
+		random = no
+		experience_gain_army = 0.35
+		army_armor_attack_factor = 0.15
+		army_armor_defence_factor = 0.15
+		motorized_attack_factor = 0.15
+		motorized_defence_factor = 0.15
+		army_armor_speed_factor = 0.25
+		equipment_bonus = {
+			armor = {
+				reliability = 1
+				build_cost_ic = -0.5
+				instant = yes
+			}
+		}
+	}
+	#帝国国防部长
+	main_trait_6 = {
+		random = no
+		experience_gain_army = 0.35
+		stability_factor = 0.2
+		#稳定度（原版最高0.6）
+		political_power_factor = 0.25
+		#政治点数+50%（原版最高0.5）
+		army_core_defence_factor = 0.25
+		#核心领土单位防御+50%（原版最高0.2）
+		army_core_attack_factor = 0.25
+		#核心领土单位进攻+50%（原版最高0.2）
+		army_armor_defence_factor = 0.15
+		industrial_capacity_dockyard = 0.4
+		# 船坞产出
+		refit_speed = 0.2
+		navy_refit_speed = 0.2
+		equipment_upgrade_xp_cost = -0.2
+		repair_speed_factor = 0.5
+		mobilization_speed = 0.5
+	}
+	#兽娘的经验
+	main_trait_7 = {
+		random = no
+		experience_gain_army = 0.35
+		army_attack_speed_factor = 0.15
+		#陆军师进攻速度+30%（原版最高0.1）
+		army_speed_factor = 0.15
+		army_org_factor = 0.1
+		out_of_supply_factor = -0.1
+		supply_consumption_factor = -0.15
+		army_morale_factor = 0.15
+		army_attack_factor = 0.2
+		army_defence_factor = 0.2
+		land_night_attack = 0.2
+		terrain_penalty_reduction = 0.2
+	}
+	#性爱知识部长
+	main_trait_8 = {
+		random = no
+		war_support_factor = 0.1
+		research_speed_factor = 0.35
+		opinion_gain_monthly_factor = 0.1
+		improve_relations_maintain_cost_factor = -0.2
+		military_leader_cost_factor = -0.1
+		political_advisor_cost_factor = -0.1
+		theorist_cost_factor = -0.1
+		propaganda_mission_factor = 0.2
+		boost_ideology_mission_factor = 0.2
+		compliance_growth = 0.1
+		civilian_intel_factor = 0.2
+		agency_upgrade_time = -0.1
+	}
+	#欲望外交偶像
+	main_trait_9 = {
+		random = no
+		operative_slot = 2
+		intel_network_gain_factor = 0.2
+		intelligence_agency_defense = 1
+		root_out_resistance_effectiveness_factor = 0.1
+		propaganda_mission_factor = 0.1
+		boost_ideology_mission_factor = 0.1
+		agency_upgrade_time = -0.1
+		send_volunteer_size = 10
+		send_volunteer_factor = 0.2
+		send_volunteers_tension = -0.2
+		request_lease_tension = -0.2
+		trade_opinion_factor = 0.1
+		democratic_acceptance = 20
+		fascism_acceptance = 20
+		neutrality_acceptance = 20
+		communism_acceptance = 20
+		enemy_justify_war_goal_time = 0.1
+		justify_war_goal_time = -0.1
+	}
+	#淫巫女
+	main_trait_10 = {
+		random = no
+		political_power_factor = 0.1
+		production_speed_buildings_factor = 0.4
+		opinion_gain_monthly_factor = 0.2
+		improve_relations_maintain_cost_factor = -0.2
+		conversion_cost_mil_to_civ_factor = -0.2
+		production_speed_industrial_complex_factor = 0.3
+		production_speed_arms_factory_factor = 0.2
+		production_speed_dockyard_factor = 0.2
+		production_speed_rail_way_factor = 0.2
+		trade_laws_cost_factor = -0.4
+		trade_opinion_factor = 0.35
+	}
+	#魅魔军务大臣
+	main_trait_11 = {
+		random = no
+		weekly_manpower = 1000
+		war_support_factor = 0.2
+		army_org_factor = 0.1
+		surrender_limit = 0.1
+		offensive_war_stability_factor = 0.2
+		generate_wargoal_tension_limit = -0.1
+		training_time_factor = -0.1
+		production_speed_arms_factory_factor = 0.3
+		production_speed_naval_base_factor = 0.3
+		production_speed_fuel_silo_factor = 0.3
+		special_forces_cap = 0.2
+		conversion_cost_civ_to_mil_factor = -0.2
+		army_attack_against_major_factor = 0.2
+		army_defence_against_major_factor = 0.2
+		send_volunteer_size = 10
+		send_volunteer_factor = 0.2
+		send_volunteers_tension = -0.4
+		line_change_production_efficiency_factor = 0.25
+		production_factory_efficiency_gain_factor = 0.25
+	}
+	#战争女神
+	main_trait_12 = {
+		random = no
+		political_power_factor = 0.2
+		war_support_factor = 0.1
+		foreign_subversive_activites = -0.2
+		non_core_manpower = 0.1
+		resistance_damage_to_garrison = -0.1
+		drift_defence_factor = 0.2
+		resistance_decay = 0.15
+		production_speed_industrial_complex_factor = 0.15
+		production_speed_arms_factory_factor = 0.15
+		production_speed_infrastructure_factor = 0.15
+		production_speed_rail_way_factor = 0.2
+		production_speed_supply_node_factor = 0.2
+		production_speed_synthetic_refinery_factor = 0.2
+		grant_medal_cost_factor = -0.2
+	}
+	#帝国征服者沁音
+	main_trait_13 = {
+		random = no
+		puppet_cost_factor = -0.5
+		compliance_growth = 0.1
+		resistance_growth = -0.1
+		non_core_manpower = 0.15
+		supply_consumption_factor = -0.2
+		army_attack_factor = 0.3
+	}
+	#内务女仆总管
+	main_trait_14 = {
+		random = no
+		stability_factor = 0.1
+		war_support_factor = 0.1
+		army_core_attack_factor = 0.1
+		army_core_defence_factor = 0.1
+		defensive_war_stability_factor = 0.2
+		land_bunker_effectiveness_factor = 0.25
+		coastal_bunker_effectiveness_factor = 0.25
+		production_speed_bunker_factor = 0.2
+		production_speed_coastal_bunker_factor = 0.2
+		line_change_production_efficiency_factor = 0.3
+		production_speed_rail_way_factor = 0.2
+	}
+	#骚想干
+	main_trait_15 = {
+		random = no
+		equipment_bonus = {
+			support_equipment = {
+				build_cost_ic = -0.2
+				reliability = 0.15
+				instant = yes
+			}
+		}
+		consumer_goods_factor = -0.15
+		army_morale_factor = 0.2
+		out_of_supply_factor = -0.2
+		enemy_army_bonus_air_superiority_factor = -0.2
+		pocket_penalty = -0.1
+		weekly_casualties_war_support = 0.001
+		production_factory_efficiency_gain_factor = 0.25
+	}
+	#死或生
+	main_trait_16 = {
+		random = no
+		army_defence_factor = 0.35
+		army_core_attack_factor = 0.35
+		surrender_limit = 0.3
+		army_strength_factor = 0.25
+		attrition_for_controller = -0.25
+		supply_combat_penalties_on_core_factor = -0.4
+		supply_consumption_factor = -0.1
+		production_speed_infrastructure_factor = 0.25
+		production_speed_arms_factory_factor = 0.25
+		army_attack_speed_factor = 0.3
+		consumer_goods_factor = -0.15
+		command_power_gain_mult = 0.45
+	}
+}

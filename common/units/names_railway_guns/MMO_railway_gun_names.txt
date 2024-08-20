@@ -1,0 +1,7 @@
+﻿MMO_RG_HISTORICAL = {
+	for_countries = {
+		MMO
+	}
+	type = railway_gun
+	fallback_name = "第 %d 魅魔大炮"
+}

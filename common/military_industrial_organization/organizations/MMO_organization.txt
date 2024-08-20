@@ -1,0 +1,116 @@
+mmo_tank_design_bureau = {
+	include = mmo_armor_manufacturer
+	name = mmo_tank_design_bureau
+	# icon = GFX_idea_morozov_design_bureau
+	icon = GFX_idea_mio_icon_1
+	allowed = {
+		tag = MMO
+	}
+	available = {
+		has_dlc = "Arms Against Tyranny"
+	}
+}
+
+mmo_naval_design_bureau_0 = {
+	include = mmo_naval_manufacturer_0
+	name = mmo_naval_design_bureau_0
+	# icon = GFX_idea_nevskoye_design_bureau
+	icon = GFX_idea_mio_icon_1
+	allowed = {
+		tag = MMO
+	}
+	available = {
+		has_dlc = "Arms Against Tyranny"
+	}
+}
+
+mmo_naval_design_bureau_1 = {
+	include = mmo_naval_manufacturer_1
+	name = mmo_naval_design_bureau_1
+	# icon = GFX_idea_SOV_rubin_design_bureau
+	icon = GFX_idea_mio_icon_1
+	allowed = {
+		tag = MMO
+	}
+	available = {
+		has_dlc = "Arms Against Tyranny"
+	}
+}
+
+mmo_aircraft_design_bureau_0 = {
+	include = mmo_aircraft_manufacturer_0
+	name = mmo_aircraft_design_bureau_0
+	# icon = GFX_idea_mig_design_bureau
+	icon = GFX_idea_mio_icon_1
+	allowed = {
+		tag = MMO
+	}
+	available = {
+		has_dlc = "Arms Against Tyranny"
+	}
+}
+
+mmo_aircraft_design_bureau_1 = {
+	include = mmo_aircraft_manufacturer
+	name = mmo_aircraft_design_bureau_1
+	icon = GFX_idea_tupolev_design_bureau
+	icon = GFX_idea_mio_icon_1
+	allowed = {
+		tag = MMO
+	}
+	available = {
+		has_dlc = "Arms Against Tyranny"
+	}
+}
+
+mmo_materiel_manufacturer_0 = {
+	include = mmo_materiel_manufacturer_infantry_weapons
+	name = mmo_materiel_manufacturer_0
+	# icon = GFX_idea_tula_arms_plant
+	icon = GFX_idea_mio_icon_1
+	allowed = {
+		tag = MMO
+	}
+	available = {
+		has_dlc = "Arms Against Tyranny"
+	}
+}
+
+mmo_materiel_manufacturer_1 = {
+	include = mmo_materiel_manufacturer_artillery
+	name = mmo_materiel_manufacturer_1
+	# icon = GFX_idea_grabin_design_bureau
+	icon = GFX_idea_mio_icon_1
+	allowed = {
+		tag = MMO
+	}
+	available = {
+		has_dlc = "Arms Against Tyranny"
+	}
+}
+
+mmo_materiel_manufacturer_2 = {
+	include = mmo_materiel_manufacturer_motorized_equipment
+	name = mmo_materiel_manufacturer_2
+	# icon = GFX_idea_gaz
+	icon = GFX_idea_mio_icon_1
+	allowed = {
+		tag = MMO
+	}
+	available = {
+		has_dlc = "Arms Against Tyranny"
+	}
+}
+
+mmo_train_manufacturer = {
+	include = mmo_train_manufacturer_train_equipment
+	name = mmo_train_manufacturer
+	# icon = GFX_idea_SOV_mytishchy_machine_building_plant
+	icon = GFX_idea_mio_icon_1
+	allowed = {
+		tag = MMO
+	}
+	available = {
+		has_dlc = "Arms Against Tyranny"
+	}
+}

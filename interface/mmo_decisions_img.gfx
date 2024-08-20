@@ -1,0 +1,7 @@
+spriteTypes = {
+	#决议
+	spriteType = {
+		name = "GFX_decision_main_big_img"
+		textureFile = "gfx/interface/decisions/decisions_img_1.png"
+	}
+}

@@ -1,0 +1,118 @@
+capital = 47
+recruit_character = MMO_communism_1
+recruit_character = MMO_democratic_2
+recruit_character = MMO_fascism_3
+recruit_character = MMO_neutrality_4
+recruit_character = main_character_MMO_1
+recruit_character = main_character_MMO_2
+recruit_character = main_character_MMO_3
+recruit_character = main_character_MMO_4
+recruit_character = main_character_MMO_5
+recruit_character = main_character_MMO_6
+recruit_character = main_character_MMO_7
+recruit_character = main_character_MMO_8
+recruit_character = main_character_MMO_9
+recruit_character = main_character_MMO_10
+recruit_character = main_character_MMO_11
+recruit_character = main_character_MMO_12
+recruit_character = main_character_MMO_13
+recruit_character = main_character_MMO_14
+recruit_character = main_character_MMO_15
+recruit_character = main_character_MMO_16
+recruit_character = main_character_MMO_17
+recruit_character = main_character_MMO_18
+recruit_character = main_character_MMO_19
+recruit_character = main_character_MMO_20
+recruit_character = main_character_MMO_21
+recruit_character = main_character_MMO_22
+recruit_character = main_character_MMO_23
+recruit_character = main_character_MMO_24
+recruit_character = main_character_MMO_25
+recruit_character = main_character_MMO_26
+recruit_character = main_character_MMO_27
+recruit_character = main_character_MMO_28
+recruit_character = main_character_MMO_29
+recruit_character = main_character_MMO_30
+recruit_character = main_character_MMO_31
+recruit_character = main_character_MMO_32
+recruit_character = main_character_MMO_33
+recruit_character = main_character_MMO_34
+recruit_character = main_character_MMO_35
+recruit_character = main_character_MMO_36
+recruit_character = main_character_MMO_37
+recruit_character = main_character_MMO_38
+recruit_character = main_character_MMO_39
+recruit_character = main_character_MMO_40
+recruit_character = main_character_MMO_41
+recruit_character = main_character_MMO_42
+recruit_character = main_character_MMO_43
+recruit_character = main_character_MMO_44
+recruit_character = main_character_MMO_45
+recruit_character = main_character_MMO_46
+recruit_character = main_character_MMO_47
+recruit_character = main_character_MMO_48
+recruit_character = main_character_MMO_49
+recruit_character = main_character_MMO_50
+recruit_character = main_character_MMO_51
+recruit_character = main_character_MMO_52
+recruit_character = main_character_MMO_53
+recruit_character = main_character_MMO_54
+recruit_character = main_character_MMO_55
+recruit_character = main_character_MMO_56
+recruit_character = main_character_MMO_57
+recruit_character = main_character_MMO_58
+recruit_character = main_character_MMO_59
+recruit_character = main_character_MMO_60
+recruit_character = main_character_MMO_61
+recruit_character = main_character_MMO_62
+recruit_character = main_character_MMO_63
+recruit_character = main_character_MMO_64
+recruit_character = main_character_MMO_65
+recruit_character = main_character_MMO_66
+recruit_character = main_character_MMO_67
+recruit_character = main_character_MMO_68
+recruit_character = main_character_MMO_69
+recruit_character = main_character_MMO_70
+recruit_character = main_character_MMO_71
+recruit_character = main_character_MMO_72
+recruit_character = main_character_MMO_73
+recruit_character = main_character_MMO_74
+recruit_character = main_character_MMO_75
+recruit_character = main_character_MMO_76
+recruit_character = main_character_MMO_77
+recruit_character = main_character_MMO_78
+recruit_character = main_naval_leader_1
+recruit_character = main_naval_leader_2
+recruit_character = main_air_leader_1
+recruit_character = main_air_leader_2
+add_ideas = {
+	main_economy_1
+	main_trade_laws_1
+	main_mobilization_laws_1
+}
+
+set_politics = {
+	ruling_party = MMO_system
+	last_election = "1936.1.1"
+	election_frequency = 120
+	elections_allowed = no
+}
+
+set_research_slots = 4
+set_popularities = {
+	MMO_system = 100
+}
+
+division_template = {
+	name = "魅魔初级师"
+	division_names_group = MMO_ARM_01
+	priority = 3
+	regiments = {
+		infantry = {
+			x = 0
+			y = 0
+		}
+	}
+}
+
+

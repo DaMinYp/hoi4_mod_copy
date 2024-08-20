@@ -1,0 +1,40 @@
+ideologies = {
+	MMO_system = {
+		types = {
+			MMO_system_1 = {
+			}
+		}
+		color = {
+			255
+			20
+			147
+		}
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = no		# 接待流亡政府
+		modifiers = {
+			generate_wargoal_tension = 0
+			# 正当化战争需要的世界紧张度 (0 to 1)
+			communism_acceptance = +100
+			#共产主义外交的接纳度+100（原版最高60）	
+			neutrality_acceptance = +100
+			#中立主义外交的接纳度+100（原版最高60）	
+			fascism_acceptance = +100
+			#法西斯主义外交的接纳度+100（原版最高60）
+			democratic_acceptance = +100
+			#民主主义外交的接纳度+100（原版最高60）
+			trade_opinion_factor = 1
+			justify_war_goal_when_in_major_war_time = -0.4
+			#与主要国家开战时正当化战争目标所需时间：-80%（原版最低-0.5）
+			justify_war_goal_time = -0.4
+			#正当化战争目标所需时间−80.0%（原版最低-0.5）
+			party_popularity_stability_factor = 1
+			#执政党对稳定度加成+60%（原版最高0.2）
+			war_support_factor = 1
+			#战争支持度+50%（原版最高0.25）
+		}
+	}
+}

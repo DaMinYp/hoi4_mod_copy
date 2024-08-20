@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_trait_main_unit_traits_1"
+		textureFile = "gfx/interface/traits/traits_icon_1.png"
+	}
+}

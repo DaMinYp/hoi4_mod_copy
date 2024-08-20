@@ -1,0 +1,3901 @@
+characters = {
+	main_character_MMO_1 = {
+		name = main_character_MMO_1
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/1.png"
+				small = "gfx/interface/ideas/MMO_small/1.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/1.png"
+				small = "gfx/interface/ideas/MMO_small/1.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				# main_country_leader_trait_4
+			}
+		}
+		field_marshal = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = main_character_MMO_1
+			traits = {
+				main_trait_1
+			}
+			cost = 50
+		}
+	}
+	main_character_MMO_2 = {
+		name = main_character_MMO_2
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/2.png"
+				small = "gfx/interface/ideas/MMO_small/2.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/2.png"
+				small = "gfx/interface/ideas/MMO_small/2.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		field_marshal = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = main_character_MMO_2
+			traits = {
+				main_trait_3
+			}
+			cost = 50
+		}
+	}
+	main_character_MMO_3 = {
+		name = main_character_MMO_3
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/3.png"
+				small = "gfx/interface/ideas/MMO_small/3.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/3.png"
+				small = "gfx/interface/ideas/MMO_small/3.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		field_marshal = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = main_character_MMO_3
+			traits = {
+				main_trait_4
+			}
+			cost = 50
+		}
+	}
+	main_character_MMO_4 = {
+		name = main_character_MMO_4
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/4.png"
+				small = "gfx/interface/ideas/MMO_small/4.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/4.png"
+				small = "gfx/interface/ideas/MMO_small/4.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				trickster
+				panzer_leader
+				main_unit_traits_1
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = main_character_MMO_4
+			traits = {
+				main_trait_2
+			}
+			cost = 50
+		}
+	}
+	main_character_MMO_5 = {
+		name = main_character_MMO_5
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/5.png"
+				small = "gfx/interface/ideas/MMO_small/5.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/5.png"
+				small = "gfx/interface/ideas/MMO_small/5.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				trickster
+				panzer_leader
+				main_unit_traits_1
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = main_character_MMO_5
+			traits = {
+				main_trait_5
+			}
+			cost = 50
+		}
+	}
+	main_character_MMO_6 = {
+		name = main_character_MMO_6
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/6.png"
+				small = "gfx/interface/ideas/MMO_small/6.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/6.png"
+				small = "gfx/interface/ideas/MMO_small/6.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = main_character_MMO_6
+			traits = {
+				main_trait_6
+			}
+			cost = 50
+		}
+	}
+	main_character_MMO_7 = {
+		name = main_character_MMO_7
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/7.png"
+				small = "gfx/interface/ideas/MMO_small/7.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/7.png"
+				small = "gfx/interface/ideas/MMO_small/7.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = main_character_MMO_7
+			traits = {
+				main_trait_7
+			}
+			cost = 50
+		}
+	}
+	main_character_MMO_8 = {
+		name = main_character_MMO_8
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/8.png"
+				small = "gfx/interface/ideas/MMO_small/8.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/8.png"
+				small = "gfx/interface/ideas/MMO_small/8.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				trickster
+				panzer_leader
+				main_unit_traits_1
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = main_character_MMO_8
+			traits = {
+				main_trait_9
+			}
+			cost = 50
+		}
+	}
+	main_character_MMO_9 = {
+		name = main_character_MMO_9
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/9.png"
+				small = "gfx/interface/ideas/MMO_small/9.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/9.png"
+				small = "gfx/interface/ideas/MMO_small/9.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		field_marshal = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = political_advisor
+		# 	idea_token = main_character_MMO_9
+		# 	traits = {
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_10 = {
+		name = main_character_MMO_10
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/10.png"
+				small = "gfx/interface/ideas/MMO_small/10.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/10.png"
+				small = "gfx/interface/ideas/MMO_small/10.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = main_character_MMO_10
+			traits = {
+				main_trait_12
+			}
+			cost = 50
+		}
+	}
+	main_character_MMO_11 = {
+		name = main_character_MMO_11
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/11.png"
+				small = "gfx/interface/ideas/MMO_small/11.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/11.png"
+				small = "gfx/interface/ideas/MMO_small/11.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = main_character_MMO_11
+			traits = {
+				main_trait_8
+			}
+			cost = 50
+		}
+	}
+	main_character_MMO_12 = {
+		name = main_character_MMO_12
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/12.png"
+				small = "gfx/interface/ideas/MMO_small/12.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/12.png"
+				small = "gfx/interface/ideas/MMO_small/12.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = main_character_MMO_12
+			traits = {
+				main_trait_13
+			}
+			cost = 50
+		}
+	}
+	main_character_MMO_13 = {
+		name = main_character_MMO_13
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/13.png"
+				small = "gfx/interface/ideas/MMO_small/13.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/13.png"
+				small = "gfx/interface/ideas/MMO_small/13.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_13
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_14 = {
+		name = main_character_MMO_14
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/14.png"
+				small = "gfx/interface/ideas/MMO_small/14.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/14.png"
+				small = "gfx/interface/ideas/MMO_small/14.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_14
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_15 = {
+		name = main_character_MMO_15
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/15.png"
+				small = "gfx/interface/ideas/MMO_small/15.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/15.png"
+				small = "gfx/interface/ideas/MMO_small/15.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_15
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_16 = {
+		name = main_character_MMO_16
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/16.png"
+				small = "gfx/interface/ideas/MMO_small/16.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/16.png"
+				small = "gfx/interface/ideas/MMO_small/16.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_16
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_17 = {
+		name = main_character_MMO_17
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/17.png"
+				small = "gfx/interface/ideas/MMO_small/17.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/17.png"
+				small = "gfx/interface/ideas/MMO_small/17.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_17
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_18 = {
+		name = main_character_MMO_18
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/18.png"
+				small = "gfx/interface/ideas/MMO_small/18.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/18.png"
+				small = "gfx/interface/ideas/MMO_small/18.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = political_advisor
+		# 	idea_token = main_character_MMO_18
+		# 	traits = {
+		# 		main_trait_15
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_19 = {
+		name = main_character_MMO_19
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/19.png"
+				small = "gfx/interface/ideas/MMO_small/19.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/19.png"
+				small = "gfx/interface/ideas/MMO_small/19.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_19
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_20 = {
+		name = main_character_MMO_20
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/20.png"
+				small = "gfx/interface/ideas/MMO_small/20.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/20.png"
+				small = "gfx/interface/ideas/MMO_small/20.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_20
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_21 = {
+		name = main_character_MMO_21
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/21.png"
+				small = "gfx/interface/ideas/MMO_small/21.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/21.png"
+				small = "gfx/interface/ideas/MMO_small/21.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_21
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_22 = {
+		name = main_character_MMO_22
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/22.png"
+				small = "gfx/interface/ideas/MMO_small/22.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/22.png"
+				small = "gfx/interface/ideas/MMO_small/22.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_22
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_23 = {
+		name = main_character_MMO_23
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/23.png"
+				small = "gfx/interface/ideas/MMO_small/23.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/23.png"
+				small = "gfx/interface/ideas/MMO_small/23.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_23
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_24 = {
+		name = main_character_MMO_24
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/24.png"
+				small = "gfx/interface/ideas/MMO_small/24.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/24.png"
+				small = "gfx/interface/ideas/MMO_small/24.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = main_character_MMO_24
+			traits = {
+				main_trait_14
+			}
+			cost = 50
+		}
+	}
+	main_character_MMO_25 = {
+		name = main_character_MMO_25
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/25.png"
+				small = "gfx/interface/ideas/MMO_small/25.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/25.png"
+				small = "gfx/interface/ideas/MMO_small/25.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = main_character_MMO_25
+			traits = {
+				main_trait_10
+			}
+			cost = 50
+		}
+	}
+	main_character_MMO_26 = {
+		name = main_character_MMO_26
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/26.png"
+				small = "gfx/interface/ideas/MMO_small/26.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/26.png"
+				small = "gfx/interface/ideas/MMO_small/26.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = main_character_MMO_26
+			traits = {
+				main_trait_11
+			}
+			cost = 50
+		}
+	}
+	main_character_MMO_27 = {
+		name = main_character_MMO_27
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/27.png"
+				small = "gfx/interface/ideas/MMO_small/27.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/27.png"
+				small = "gfx/interface/ideas/MMO_small/27.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = main_character_MMO_27
+			traits = {
+				main_trait_15
+			}
+			cost = 50
+		}
+	}
+	main_character_MMO_28 = {
+		name = main_character_MMO_28
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/28.png"
+				small = "gfx/interface/ideas/MMO_small/28.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/28.png"
+				small = "gfx/interface/ideas/MMO_small/28.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = political_advisor
+		# 	idea_token = main_character_MMO_28
+		# 	traits = {
+		# 		main_trait_15
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_29 = {
+		name = main_character_MMO_29
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/29.png"
+				small = "gfx/interface/ideas/MMO_small/29.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/29.png"
+				small = "gfx/interface/ideas/MMO_small/29.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_29
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_30 = {
+		name = main_character_MMO_30
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/30.png"
+				small = "gfx/interface/ideas/MMO_small/30.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/30.png"
+				small = "gfx/interface/ideas/MMO_small/30.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_30
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_31 = {
+		name = main_character_MMO_31
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/31.png"
+				small = "gfx/interface/ideas/MMO_small/31.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/31.png"
+				small = "gfx/interface/ideas/MMO_small/31.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_31
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_32 = {
+		name = main_character_MMO_32
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/32.png"
+				small = "gfx/interface/ideas/MMO_small/32.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/32.png"
+				small = "gfx/interface/ideas/MMO_small/32.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_32
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_33 = {
+		name = main_character_MMO_33
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/33.png"
+				small = "gfx/interface/ideas/MMO_small/33.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/33.png"
+				small = "gfx/interface/ideas/MMO_small/33.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_33
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_34 = {
+		name = main_character_MMO_34
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/34.png"
+				small = "gfx/interface/ideas/MMO_small/34.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/34.png"
+				small = "gfx/interface/ideas/MMO_small/34.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_34
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_35 = {
+		name = main_character_MMO_35
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/35.png"
+				small = "gfx/interface/ideas/MMO_small/35.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/35.png"
+				small = "gfx/interface/ideas/MMO_small/35.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_35
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_36 = {
+		name = main_character_MMO_36
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/36.png"
+				small = "gfx/interface/ideas/MMO_small/36.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/36.png"
+				small = "gfx/interface/ideas/MMO_small/36.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_36
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_37 = {
+		name = main_character_MMO_37
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/37.png"
+				small = "gfx/interface/ideas/MMO_small/37.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/37.png"
+				small = "gfx/interface/ideas/MMO_small/37.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_37
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_38 = {
+		name = main_character_MMO_38
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/38.png"
+				small = "gfx/interface/ideas/MMO_small/38.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/38.png"
+				small = "gfx/interface/ideas/MMO_small/38.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_38
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_39 = {
+		name = main_character_MMO_39
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/39.png"
+				small = "gfx/interface/ideas/MMO_small/39.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/39.png"
+				small = "gfx/interface/ideas/MMO_small/39.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_39
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_40 = {
+		name = main_character_MMO_40
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/40.png"
+				small = "gfx/interface/ideas/MMO_small/40.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/40.png"
+				small = "gfx/interface/ideas/MMO_small/40.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_40
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_41 = {
+		name = main_character_MMO_41
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/41.png"
+				small = "gfx/interface/ideas/MMO_small/41.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/41.png"
+				small = "gfx/interface/ideas/MMO_small/41.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_41
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_42 = {
+		name = main_character_MMO_42
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/42.png"
+				small = "gfx/interface/ideas/MMO_small/42.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/42.png"
+				small = "gfx/interface/ideas/MMO_small/42.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_42
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_43 = {
+		name = main_character_MMO_43
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/43.png"
+				small = "gfx/interface/ideas/MMO_small/43.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/43.png"
+				small = "gfx/interface/ideas/MMO_small/43.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_43
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_44 = {
+		name = main_character_MMO_44
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/44.png"
+				small = "gfx/interface/ideas/MMO_small/44.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/44.png"
+				small = "gfx/interface/ideas/MMO_small/44.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_44
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_45 = {
+		name = main_character_MMO_45
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/45.png"
+				small = "gfx/interface/ideas/MMO_small/45.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/45.png"
+				small = "gfx/interface/ideas/MMO_small/45.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_45
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_46 = {
+		name = main_character_MMO_46
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/46.png"
+				small = "gfx/interface/ideas/MMO_small/46.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/46.png"
+				small = "gfx/interface/ideas/MMO_small/46.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_46
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_47 = {
+		name = main_character_MMO_47
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/47.png"
+				small = "gfx/interface/ideas/MMO_small/47.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/47.png"
+				small = "gfx/interface/ideas/MMO_small/47.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_47
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_48 = {
+		name = main_character_MMO_48
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/48.png"
+				small = "gfx/interface/ideas/MMO_small/48.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/48.png"
+				small = "gfx/interface/ideas/MMO_small/48.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_48
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_49 = {
+		name = main_character_MMO_49
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/49.png"
+				small = "gfx/interface/ideas/MMO_small/49.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/49.png"
+				small = "gfx/interface/ideas/MMO_small/49.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_49
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_50 = {
+		name = main_character_MMO_50
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/50.png"
+				small = "gfx/interface/ideas/MMO_small/50.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/50.png"
+				small = "gfx/interface/ideas/MMO_small/50.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_50
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_51 = {
+		name = main_character_MMO_51
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/51.png"
+				small = "gfx/interface/ideas/MMO_small/51.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/51.png"
+				small = "gfx/interface/ideas/MMO_small/51.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_51
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_52 = {
+		name = main_character_MMO_52
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/52.png"
+				small = "gfx/interface/ideas/MMO_small/52.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/52.png"
+				small = "gfx/interface/ideas/MMO_small/52.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_52
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_53 = {
+		name = main_character_MMO_53
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/53.png"
+				small = "gfx/interface/ideas/MMO_small/53.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/53.png"
+				small = "gfx/interface/ideas/MMO_small/53.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		field_marshal = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = main_character_MMO_53
+			traits = {
+				main_trait_16
+			}
+			cost = 50
+		}
+	}
+	main_character_MMO_54 = {
+		name = main_character_MMO_54
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/54.png"
+				small = "gfx/interface/ideas/MMO_small/54.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/54.png"
+				small = "gfx/interface/ideas/MMO_small/54.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = political_advisor
+		# 	idea_token = main_character_MMO_54
+		# 	traits = {
+		# 		main_trait_16
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_55 = {
+		name = main_character_MMO_55
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/55.png"
+				small = "gfx/interface/ideas/MMO_small/55.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/55.png"
+				small = "gfx/interface/ideas/MMO_small/55.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = political_advisor
+		# 	idea_token = main_character_MMO_55
+		# 	traits = {
+		# 		main_trait_16
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_56 = {
+		name = main_character_MMO_56
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/56.png"
+				small = "gfx/interface/ideas/MMO_small/56.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/56.png"
+				small = "gfx/interface/ideas/MMO_small/56.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = political_advisor
+		# 	idea_token = main_character_MMO_56
+		# 	traits = {
+		# 		main_trait_16
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_57 = {
+		name = main_character_MMO_57
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/57.png"
+				small = "gfx/interface/ideas/MMO_small/57.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/57.png"
+				small = "gfx/interface/ideas/MMO_small/57.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = political_advisor
+		# 	idea_token = main_character_MMO_57
+		# 	traits = {
+		# 		main_trait_16
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_58 = {
+		name = main_character_MMO_58
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/58.png"
+				small = "gfx/interface/ideas/MMO_small/58.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/58.png"
+				small = "gfx/interface/ideas/MMO_small/58.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = political_advisor
+		# 	idea_token = main_character_MMO_58
+		# 	traits = {
+		# 		main_trait_16
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_59 = {
+		name = main_character_MMO_59
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/59.png"
+				small = "gfx/interface/ideas/MMO_small/59.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/59.png"
+				small = "gfx/interface/ideas/MMO_small/59.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = political_advisor
+		# 	idea_token = main_character_MMO_59
+		# 	traits = {
+		# 		main_trait_16
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_60 = {
+		name = main_character_MMO_60
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/60.png"
+				small = "gfx/interface/ideas/MMO_small/60.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/60.png"
+				small = "gfx/interface/ideas/MMO_small/60.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = political_advisor
+		# 	idea_token = main_character_MMO_59
+		# 	traits = {
+		# 		main_trait_16
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_61 = {
+		name = main_character_MMO_61
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/61.png"
+				small = "gfx/interface/ideas/MMO_small/61.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/61.png"
+				small = "gfx/interface/ideas/MMO_small/61.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = political_advisor
+		# 	idea_token = main_character_MMO_59
+		# 	traits = {
+		# 		main_trait_16
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_62 = {
+		name = main_character_MMO_62
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/62.png"
+				small = "gfx/interface/ideas/MMO_small/62.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/62.png"
+				small = "gfx/interface/ideas/MMO_small/62.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_62
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_63 = {
+		name = main_character_MMO_63
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/63.png"
+				small = "gfx/interface/ideas/MMO_small/63.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/63.png"
+				small = "gfx/interface/ideas/MMO_small/63.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_63
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_64 = {
+		name = main_character_MMO_64
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/64.png"
+				small = "gfx/interface/ideas/MMO_small/64.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/64.png"
+				small = "gfx/interface/ideas/MMO_small/64.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_64
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_65 = {
+		name = main_character_MMO_65
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/65.png"
+				small = "gfx/interface/ideas/MMO_small/65.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/65.png"
+				small = "gfx/interface/ideas/MMO_small/65.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_65
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_66 = {
+		name = main_character_MMO_66
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/66.png"
+				small = "gfx/interface/ideas/MMO_small/66.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/66.png"
+				small = "gfx/interface/ideas/MMO_small/66.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_66
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_67 = {
+		name = main_character_MMO_67
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/67.png"
+				small = "gfx/interface/ideas/MMO_small/67.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/67.png"
+				small = "gfx/interface/ideas/MMO_small/67.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_67
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_68 = {
+		name = main_character_MMO_68
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/68.png"
+				small = "gfx/interface/ideas/MMO_small/68.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/68.png"
+				small = "gfx/interface/ideas/MMO_small/68.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_68
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_69 = {
+		name = main_character_MMO_69
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/69.png"
+				small = "gfx/interface/ideas/MMO_small/69.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/69.png"
+				small = "gfx/interface/ideas/MMO_small/69.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_69
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_70 = {
+		name = main_character_MMO_70
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/70.png"
+				small = "gfx/interface/ideas/MMO_small/70.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/70.png"
+				small = "gfx/interface/ideas/MMO_small/70.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_70
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_71 = {
+		name = main_character_MMO_71
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/71.png"
+				small = "gfx/interface/ideas/MMO_small/71.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/71.png"
+				small = "gfx/interface/ideas/MMO_small/71.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_71
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_72 = {
+		name = main_character_MMO_72
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/72.png"
+				small = "gfx/interface/ideas/MMO_small/72.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/72.png"
+				small = "gfx/interface/ideas/MMO_small/72.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_72
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_73 = {
+		name = main_character_MMO_73
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/73.png"
+				small = "gfx/interface/ideas/MMO_small/73.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/73.png"
+				small = "gfx/interface/ideas/MMO_small/73.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_73
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_74 = {
+		name = main_character_MMO_74
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/74.png"
+				small = "gfx/interface/ideas/MMO_small/74.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/74.png"
+				small = "gfx/interface/ideas/MMO_small/74.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_74
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_75 = {
+		name = main_character_MMO_75
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/75.png"
+				small = "gfx/interface/ideas/MMO_small/75.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/75.png"
+				small = "gfx/interface/ideas/MMO_small/75.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_75
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_76 = {
+		name = main_character_MMO_76
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/76.png"
+				small = "gfx/interface/ideas/MMO_small/76.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/76.png"
+				small = "gfx/interface/ideas/MMO_small/76.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_76
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_77 = {
+		name = main_character_MMO_77
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/77.png"
+				small = "gfx/interface/ideas/MMO_small/77.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/77.png"
+				small = "gfx/interface/ideas/MMO_small/77.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_77
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+	main_character_MMO_78 = {
+		name = main_character_MMO_78
+		portraits = {
+			army = {
+				large = "gfx/leaders/MMO_large/78.png"
+				small = "gfx/interface/ideas/MMO_small/78.png"
+			}
+			civilian = {
+				large = "gfx/leaders/MMO_large/78.png"
+				small = "gfx/interface/ideas/MMO_small/78.png"
+			}
+		}
+		country_leader = {
+			ideology = MMO_system_1
+			traits = {
+				main_country_leader_trait_1
+				main_country_leader_trait_2
+				main_country_leader_trait_3
+				main_country_leader_trait_4
+			}
+		}
+		corps_commander = {
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 6
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				organizer
+				skilled_staffer
+				trait_engineer
+				offensive_doctrine
+				commando
+				panzer_leader
+				trickster
+				main_unit_traits_1
+			}
+		}
+		# advisor = {
+		# 	slot = high_command
+		# 	idea_token = main_character_MMO_78
+		# 	traits = {
+		# 		main_trait_13
+		# 	}
+		# 	cost = 50
+		# }
+	}
+}

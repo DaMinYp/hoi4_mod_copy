@@ -1,0 +1,1 @@
+MMO = "countries/meimo.txt"

@@ -1,0 +1,53 @@
+every_possible_country = {
+	limit = {
+		tag = MMO
+	}
+	# generate_character = {
+	# 	token_base = main_character_MMO_8
+	# 	name = main_character_MMO_8
+	# 	portraits = {
+	# 		civilian = {
+	# 			large = "gfx/leaders/MMO_large/8.png"
+	# 			small = "gfx/interface/ideas/MMO_small/8.png"
+	# 		}
+	# 	}
+	# 	advisor = {
+	# 		slot = political_advisor
+	# 		idea_token = main_character_MMO_8
+	# 		desc = main_character_MMO_8_d
+	# 		allowed = {
+	# 		}
+	# 		visible = {
+	# 		}
+	# 		available = {
+	# 		}
+	# 		traits = {
+	# 			main_trait_9
+	# 		}
+	# 	}
+	# }
+	# generate_character = {
+	# 	token_base = main_character_MMO_9
+	# 	name = main_character_MMO_9
+	# 	portraits = {
+	# 		civilian = {
+	# 			large = "gfx/leaders/MMO_large/9.png"
+	# 			small = "gfx/interface/ideas/MMO_small/9.png"
+	# 		}
+	# 	}
+	# 	advisor = {
+	# 		slot = political_advisor
+	# 		idea_token = main_character_MMO_9
+	# 		desc = main_character_MMO_9_d
+	# 		allowed = {
+	# 		}
+	# 		visible = {
+	# 		}
+	# 		available = {
+	# 		}
+	# 		traits = {
+	# 			main_trait_10
+	# 		}
+	# 	}
+	# }
+}
