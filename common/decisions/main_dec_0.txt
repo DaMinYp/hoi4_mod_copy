@@ -133,6 +133,10 @@ main_decision_categories_0 = {
 					owner = ROOT
 					count = 24
 				}
+				# create_ship = {
+				# 	type = ship_hull_heavy
+				# 	equipment_variant = x
+				# }
 			}
 		}
 	}

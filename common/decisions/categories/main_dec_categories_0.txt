@@ -2,9 +2,6 @@ main_decision_categories_open = {
 	picture = GFX_decision_main_big_img
 	icon = generic_political_actions
 	priority = 1000
-	visible = {
-		is_ai = no
-	}
 	allowed = {
 		is_ai = no
 	}
@@ -14,8 +11,6 @@ main_decision_categories_0 = {
 	picture = GFX_decision_main_big_img
 	icon = generic_political_actions
 	priority = 1000
-	visible = {
-	}
 	allowed = {
 		tag = MMO
 	}
