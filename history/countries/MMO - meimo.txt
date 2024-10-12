@@ -114,10 +114,3 @@ division_template = {
 		}
 	}
 }
-
-capital_scope = {
-	add_resource = {
-		type = oil
-		amount = 24
-	}
-}

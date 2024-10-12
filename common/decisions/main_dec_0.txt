@@ -207,7 +207,6 @@ main_decision_categories_0 = {
 		}
 	}
 	main_dec_add_build_list_on = {
-		# icon = generic_army_support
 		fire_only_once = no
 		visible = {
 			NOT = {
@@ -474,35 +473,6 @@ main_decision_categories_0 = {
 						amount = 24
 					}
 				}
-				# every_owned_state = {
-				# 	limit = {
-				# 		is_capital = yes
-				# 	}
-				# 	add_resource = {
-				# 		type = steel
-				# 		amount = 350
-				# 	}
-				# 	add_resource = {
-				# 		type = oil
-				# 		amount = 350
-				# 	}
-				# 	add_resource = {
-				# 		type = tungsten
-				# 		amount = 350
-				# 	}
-				# 	add_resource = {
-				# 		type = chromium
-				# 		amount = 350
-				# 	}
-				# 	add_resource = {
-				# 		type = aluminium
-				# 		amount = 350
-				# 	}
-				# 	add_resource = {
-				# 		type = rubber
-				# 		amount = 350
-				# 	}
-				# }
 			}
 		}
 	}

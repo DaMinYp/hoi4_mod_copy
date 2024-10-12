@@ -1,4 +1,41 @@
 on_actions = {
+	on_startup = {
+		effect = {
+			MMO = {
+				capital_scope = {
+					add_resource = {
+						type = steel
+						amount = 52
+					}
+					add_resource = {
+						type = oil
+						amount = 42
+					}
+					add_resource = {
+						type = tungsten
+						amount = 24
+					}
+					add_resource = {
+						type = chromium
+						amount = 32
+					}
+					add_resource = {
+						type = aluminium
+						amount = 24
+					}
+					add_resource = {
+						type = rubber
+						amount = 24
+					}
+				}
+				every_owned_state = {
+					# increase_state_category = yes
+					set_state_category = megalopolis
+					add_manpower = 15000
+				}
+			}
+		}
+	}
 	on_weekly = {
 		effect = {
 			every_country = {
